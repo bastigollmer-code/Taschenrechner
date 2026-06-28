@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rechnerprojekt</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="manifest" href="manifest.json">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="apple-touch-icon" sizes="180x180" href="iconrechner.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<div class="all">
+<div id="ergebnissspalte">
+    
+</div>
+
+<table class="tabelle">
+
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="del" onclick="löschen()">DEL</td>
+    </tr>
+
+
+    <tr>
+        <td onclick="ergebniss(1)">1</td>
+        <td onclick="ergebniss(2)">2</td>
+        <td onclick="ergebniss(3)">3</td>
+        <td class="spalterechts" onclick="ergebniss(' * ')">*</td>
+    </tr>
+
+    <tr>
+        <td onclick="ergebniss(4)">4</td>
+        <td onclick="ergebniss(5)">5</td>
+        <td onclick="ergebniss(6)">6</td>
+        <td class="spalterechts" onclick="ergebniss(' / ')">:</td>
+    </tr>
+
+    <tr>
+        <td onclick="ergebniss(7)">7</td>
+        <td onclick="ergebniss(8)">8</td>
+        <td onclick="ergebniss(9)">9</td>
+        <td class="spalterechts" onclick="ergebniss(' + ')">+</td>
+    </tr>
+
+    <tr>
+        <td onclick="ergebniss(0)">0</td>
+        <td onclick="ergebniss(',')">,</td>
+        <td class="gleich" onclick="rechnen()">=</td>
+        <td class="spalterechts" onclick="ergebniss(' - ')">-</td>
+    </tr>
+
+
+</table>
+
+
+</div>
+</body>
+</html>

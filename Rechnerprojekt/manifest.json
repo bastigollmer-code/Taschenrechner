@@ -1,0 +1,20 @@
+ {
+  "theme_color": "#38f2ff",
+  "background_color": "#404040",
+  "icons": [
+    {
+      "src": "iconrechner.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "orientation": "any",
+  "display": "fullscreen",
+  "dir": "auto",
+  "lang": "de-DE",
+  "name": "Rechner",
+  "short_name": "Rechner",
+  "start_url": "/index.html",
+  "scope": "/"
+}
